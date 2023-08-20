@@ -1,0 +1,40 @@
+.button {
+  display: block;
+
+  padding: 20px 50px 20px 50px;
+  margin-top: 16px;
+  margin-left: 10px;
+
+  font-size: 30px;
+  color: var(--main-white);
+  background-color: var(--main-black);
+  border: 1px solid var(--main-white);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--main-gold);
+  border-color: var(--main-gold);
+}
+
+.list {
+  display: flex;
+}
+
+.item {
+  margin: 10px;
+}
+
+.links {
+  display: block;
+  font-size: 30px;
+  padding: 26px;
+
+  color: var(--main-white);
+}
+
+.active {
+  composes: links;
+  border-bottom: 1px solid var(--main-white);
+}

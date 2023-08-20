@@ -1,0 +1,37 @@
+.homeList {
+  width: 1140px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.homeItem {
+  width: 360px;
+}
+
+.homeItem:not(:nth-child(3n + 3)) {
+  margin-right: 30px;
+}
+
+.homeItem:hover {
+  scale: 1.1;
+}
+
+.homeItem:hover .homeTitle {
+  color: var(--main-gold);
+}
+
+.homeImg {
+  margin-bottom: 30px;
+}
+
+.homeTitle {
+  margin-bottom: 80px;
+  color: var(--main-white);
+  text-align: center;
+}

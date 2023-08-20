@@ -1,0 +1,47 @@
+.movieList {
+  width: 1170px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.movieItem {
+  width: 220px;
+  margin: 6px;
+
+  color: var(--main-white);
+}
+
+.moviePic {
+  margin-bottom: 10px;
+}
+
+.movieTitle {
+  color: var(--main-white);
+
+  font-size: 20px;
+  text-align: center;
+
+  margin-bottom: 10px;
+}
+
+.movieDate {
+  color: var(--main-white);
+  font-size: 18px;
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+
+.movieItem:hover {
+  scale: 1.1;
+}
+
+.movieItem:hover .movieTitle {
+  color: var(--main-gold);
+}
+
+.movieItem:hover .movieDate {
+  color: var(--main-gold);
+}

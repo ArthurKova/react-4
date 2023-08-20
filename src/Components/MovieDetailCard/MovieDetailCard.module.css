@@ -1,0 +1,59 @@
+.box {
+  display: flex;
+
+  padding: 20px;
+}
+
+.img {
+  margin-right: 50px;
+}
+
+.title {
+  font-size: 60px;
+}
+
+.date {
+  font-size: 30px;
+}
+
+.tag {
+  font-size: 40px;
+  font-style: italic;
+
+  margin-bottom: 20px;
+}
+
+.overview {
+  font-size: 26px;
+
+  margin-bottom: 20px;
+}
+
+.text {
+  composes: overview;
+}
+
+.genres_box {
+  display: flex;
+
+  align-items: baseline;
+}
+
+.genres_text {
+  composes: overview;
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+.genres {
+  display: flex;
+  flex-wrap: wrap;
+
+  & li:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.item {
+  font-size: 26px;
+}

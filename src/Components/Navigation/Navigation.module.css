@@ -1,0 +1,39 @@
+.navBox {
+  display: flex;
+  justify-content: space-between;
+  justify-content: baseline;
+  align-items: baseline;
+
+  border-bottom: 1px solid var(--main-white);
+}
+
+.list {
+  height: 70px;
+  display: flex;
+}
+
+.item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.activeLink {
+  font-size: 34px;
+  padding: 16px;
+  color: var(--main-gold);
+}
+
+.inActiveLink {
+  composes: activeLink;
+  color: var(--main-white);
+}
+
+.text {
+  font-size: 20px;
+
+  margin: 0;
+  padding: 0;
+}
+
+.span {
+  font-style: italic;
+}

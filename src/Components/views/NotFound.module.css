@@ -1,0 +1,8 @@
+.notFoundBox {
+  margin: 30px 0 0 30px;
+}
+
+.notFound {
+  color: var(--main-white);
+  font-size: 50px;
+}

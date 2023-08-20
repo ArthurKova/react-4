@@ -1,0 +1,22 @@
+.btnBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnStyle {
+  padding: 28px 40px 28px 40px;
+
+  color: var(--main-white);
+  background-color: var(--main-black);
+  font-size: 30px;
+
+  cursor: pointer;
+  border: 1px solid var(--main-white);
+  border-radius: 8px;
+}
+
+.btnStyle:hover {
+  color: var(--main-gold);
+  border-color: var(--main-gold);
+}

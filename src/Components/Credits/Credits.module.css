@@ -1,0 +1,26 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 20px;
+}
+
+.item {
+  width: 350px;
+  margin: 12px;
+}
+
+.img {
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.character {
+  font-size: 26px;
+
+  margin-bottom: 30px;
+}

@@ -1,0 +1,10 @@
+:root {
+  --main-black: #191919;
+  --main-white: #fff;
+  --main-gold: #ffd700;
+}
+
+body {
+  background-color: var(--main-black);
+  color: var(--main-white);
+}
